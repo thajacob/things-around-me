@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4B1134E51E6B1DAD004D1388 /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1134E41E6B1DAD004D1388 /* AddPostVC.swift */; };
+		4B1AEED51E6D8A7300ACD2F1 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1AEED41E6D8A7300ACD2F1 /* DataService.swift */; };
 		4BD30D161E698A3A00A2EDEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD30D151E698A3A00A2EDEE /* AppDelegate.swift */; };
 		4BD30D181E698A3A00A2EDEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD30D171E698A3A00A2EDEE /* ViewController.swift */; };
 		4BD30D1B1E698A3A00A2EDEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD30D191E698A3A00A2EDEE /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		4B1134E41E6B1DAD004D1388 /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
+		4B1AEED41E6D8A7300ACD2F1 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		4BD30D121E698A3A00A2EDEE /* thingsAroundMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = thingsAroundMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD30D151E698A3A00A2EDEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BD30D171E698A3A00A2EDEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				4BD30D271E698A4600A2EDEE /* Model */,
 				4BD30D151E698A3A00A2EDEE /* AppDelegate.swift */,
 				4BD30D171E698A3A00A2EDEE /* ViewController.swift */,
+				4B1AEED41E6D8A7300ACD2F1 /* DataService.swift */,
 				4BD30D191E698A3A00A2EDEE /* Main.storyboard */,
 				4BD30D1C1E698A3A00A2EDEE /* Assets.xcassets */,
 				4BD30D1E1E698A3A00A2EDEE /* LaunchScreen.storyboard */,
@@ -173,6 +176,7 @@
 				4BD30D291E698A8900A2EDEE /* Post.swift in Sources */,
 				4BD30D181E698A3A00A2EDEE /* ViewController.swift in Sources */,
 				4B1134E51E6B1DAD004D1388 /* AddPostVC.swift in Sources */,
+				4B1AEED51E6D8A7300ACD2F1 /* DataService.swift in Sources */,
 				4BD30D161E698A3A00A2EDEE /* AppDelegate.swift in Sources */,
 				4BD30D2C1E69A09400A2EDEE /* PostCell.swift in Sources */,
 			);

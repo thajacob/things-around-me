@@ -20,7 +20,7 @@ class PostCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        postImg.layer.cornerRadius = 15
     }
     
    
@@ -29,6 +29,7 @@ class PostCell: UITableViewCell {
     func configureCell(_ post: Post) {
         titleLbL.text = post.title
         descLbl.text = post.postDesc
+        postImg.image = DataService.instance.imageForPath(path: post.imagePath)
     }
     
     
