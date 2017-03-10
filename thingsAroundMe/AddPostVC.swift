@@ -26,9 +26,9 @@ class AddPostVC: UIViewController, UIImagePickerControllerDelegate,UINavigationC
         imagePicker.delegate = self
         
         
-        
-        
+
     }
+    
     
     
     
@@ -66,7 +66,7 @@ class AddPostVC: UIViewController, UIImagePickerControllerDelegate,UINavigationC
         postImg.image = selectedImage
     }
     
-    
+   
     
         
 

@@ -63,7 +63,31 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
         tableView.reloadData()
         
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+    performSegue(withIdentifier: "celldetalis", sender: DataService.instance.loadedPosts[indexPath.row])
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
+        
+        let guest = segue.destination as! CellDetails
+        
+        if let indexPath = tableView.indexPathForSelectedRow {
+            
+            guest.index = indexPath.row
+            
+        }
+        
+        
+        guest.displayImage.image = UserDefaults
+        
+        
+    }
+
+    
+    
         
     }
 
