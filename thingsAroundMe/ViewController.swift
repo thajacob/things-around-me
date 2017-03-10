@@ -71,28 +71,23 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        
-        let guest = segue.destination as! CellDetails
-        
-        if let indexPath = tableView.indexPathForSelectedRow {
+        if let post = sender as? Post {
+            if let callDetailsVC = segue.destination as? CellDetails {
+                // post.imagePath contains the path to the image
+                // TODO: load the image, create a new UIImage and set it on the next line
+                 let loadImage = DataService.instance.documentPathForFileName(post.imagePath)
+                    if let new = UIImage(contentsOfFile: loadImage) {
+                
+                   callDetailsVC.displayImage.image = new
+                
+
             
-            guest.index = indexPath.row
-            
+            }
+  }
         }
-        
-        
-        guest.displayImage.image = UserDefaults
-        
-        
-    }
-
-    
-    
-        
-    }
-
-   
+}
+}
 
 
 
-
+ 

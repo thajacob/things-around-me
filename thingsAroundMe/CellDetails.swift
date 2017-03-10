@@ -9,11 +9,17 @@
 import Foundation
 import UIKit
 
+
+
+
+
 class CellDetails: UIViewController, UIImagePickerControllerDelegate,UINavigationControllerDelegate {
     
     
     @IBOutlet weak var displayImage:UIImageView!
     
+    var newImage: UIImage!
+
     
     
     @IBAction func CancelBtnDidPress(_ sender: UIButton) {
@@ -29,8 +35,9 @@ class CellDetails: UIViewController, UIImagePickerControllerDelegate,UINavigatio
     override func viewDidLoad() {
         super.viewDidLoad()
         
+      //  displayImage.image = newImage
         
-        
+    //   print("BLAAAAA \(newImage)")
         
     }
     

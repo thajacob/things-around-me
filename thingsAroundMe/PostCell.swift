@@ -30,6 +30,8 @@ class PostCell: UITableViewCell {
         titleLbL.text = post.title
         descLbl.text = post.postDesc
         postImg.image = DataService.instance.imageForPath(path: post.imagePath)
+        
+     //   print("THIS IS \(postImg)")
     }
     
     
