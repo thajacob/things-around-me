@@ -78,7 +78,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
                  let loadImage = DataService.instance.documentPathForFileName(post.imagePath)
                     if let new = UIImage(contentsOfFile: loadImage) {
                 
-                   callDetailsVC.displayImage.image = new
+                   callDetailsVC.newImage = new
                 
 
             

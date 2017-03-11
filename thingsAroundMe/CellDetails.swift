@@ -35,7 +35,7 @@ class CellDetails: UIViewController, UIImagePickerControllerDelegate,UINavigatio
     override func viewDidLoad() {
         super.viewDidLoad()
         
-      //  displayImage.image = newImage
+        displayImage.image = newImage
         
     //   print("BLAAAAA \(newImage)")
         

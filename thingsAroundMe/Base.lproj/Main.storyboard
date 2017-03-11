@@ -98,7 +98,6 @@
                                             <outlet property="descLbl" destination="lgf-Ua-v1z" id="zwe-i8-gNq"/>
                                             <outlet property="postImg" destination="VmQ-24-0fu" id="X9P-Qp-cDC"/>
                                             <outlet property="titleLbL" destination="nq2-dy-XCB" id="P5E-F9-8I8"/>
-                                            <segue destination="KsJ-mb-ZA8" kind="showDetail" identifier="celldetalis" id="989-NF-d1g"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -117,6 +116,7 @@
                     </view>
                     <connections>
                         <outlet property="tableView" destination="WHG-wG-XGe" id="z6e-o3-L2t"/>
+                        <segue destination="KsJ-mb-ZA8" kind="showDetail" identifier="celldetalis" id="dv2-cX-enQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
